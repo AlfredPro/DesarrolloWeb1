@@ -7,6 +7,15 @@
 .container-fluid{
     background-color: rgb(211, 211, 211);
 }
+.main-content{
+    height: 100vh;
+    margin-bottom: 125px;
+}
+#PracticesRow{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 575px;
+}
 table {
     border-collapse: collapse;
 }
@@ -17,4 +26,12 @@ td, th {
 }
 th{
     background-color: rgb(145, 202, 255);
+}
+footer {
+    background-color: #f3f3f379;
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    height: 125px;
+    margin-top: -125px;
 }
