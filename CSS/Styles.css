@@ -1,0 +1,20 @@
+.titulo{
+    padding: 2rem;
+}
+.texto{
+    font-size: large;
+}
+.container-fluid{
+    background-color: rgb(211, 211, 211);
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 2px solid rgb(255, 255, 255);
+    text-align: left;
+    padding: 1rem;
+}
+th{
+    background-color: rgb(145, 202, 255);
+}

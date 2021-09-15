@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practica 6</title>
+</head>
+<body>
+
+    <h1>Practica 6</h1>
+    <h3>Canvas</h3>
+    <canvas id="canv" width="400" height="400" style="border: 2px solid black;"></canvas>
+    <script>
+        var canvas = document.getElementById("canv");
+        var contexto = canvas.getContext("2d");
+        //contexto.moveTo(0,0);
+        //contexto.lineTo(200,200);
+        //contexto.stroke();
+
+        contexto.beginPath();
+        contexto.arc(200, 200, 175, 0, 2*Math.PI);
+        contexto.stroke();
+        contexto.beginPath();
+        contexto.arc(125, 125, 50, 0, 2*Math.PI);
+        contexto.fill();
+        contexto.stroke();
+        contexto.beginPath();
+        contexto.arc(275, 125, 50, 0, 2*Math.PI);
+        contexto.fill();
+        contexto.stroke();
+        contexto.beginPath();
+        contexto.arc(200, 200, 125, 0, 1*Math.PI);
+        contexto.arc(200, -73, 300, 0.637*Math.PI, 0.362*Math.PI, 1);
+        contexto.fill();
+        contexto.stroke();
+    </script>
+</body>
+</html>
