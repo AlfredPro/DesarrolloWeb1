@@ -1,4 +1,8 @@
 {
     "changeLanguage":"Cambiar idioma",
-    "mainPage":"Inicio"
+    "mainPage":"Inicio",
+    "skills":"Habilidades",
+    "practices":"Practicas",
+    "experience":"Experiencia",
+    "contact":"Contacto"
 }

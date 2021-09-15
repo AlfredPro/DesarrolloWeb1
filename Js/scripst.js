@@ -14,15 +14,17 @@ function setLanguage(lang) {
     localStorage.setItem('lg', lang);
 }
 function toggleLanguage(){
-    alert(localStorage.getItem('lg'));
     (localStorage.getItem('lg') == 'es') ? setLanguage('en') : setLanguage('es');
     getLanguage();
     setTexts();
 }
 function setTexts() {
     $('.navBarMainPage').text(language.mainPage);
-    //$('.navBarMainPage').text("Holaaas");
     $('.navBarChangeLanguage').text(language.changeLanguage);
+    $('.navBarSkills').text(language.skills);
+    $('.navBarPractices').text(language.practices);
+    $('.navBarExperience').text(language.experience);
+    $('.navBarContact').text(language.contact);
 }
 $(document).ready(function(){
     getLanguage();
