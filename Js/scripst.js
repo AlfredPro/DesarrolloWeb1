@@ -71,6 +71,7 @@ function setTexts() {
     $('#pr7d').text(language.pr7d);
     $('#pr8').text(language.pr8);
     $('#pr8d').text(language.pr8d);
+    $('#ctFrm').text(language.ctFrm);
 }
 $(document).ready(function(){
     getLanguage();

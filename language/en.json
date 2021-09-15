@@ -2,7 +2,7 @@
     "changeLanguage":"Change Language",
     "mainPage":"Main Page",
     "skills":"Skills",
-    "practices":"Practicas",
+    "practices":"Practices",
     "experience":"Experience",
     "contact":"Contact",
     "indexTitle":"About me",
@@ -45,5 +45,6 @@
     "pr7":"Practice 7",
     "pr7d":"Seventh practice",
     "pr8":"Practice 8",
-    "pr8d":"Eight practice"
+    "pr8d":"Eight practice",
+    "ctFrm":"Contact form"
 }
