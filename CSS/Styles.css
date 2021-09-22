@@ -16,18 +16,18 @@
     overflow-x: hidden;
     max-height: 575px;
 }
-table {
+.languagetable {
     border-collapse: collapse;
 }
-td, th {
+.languagetable__td {
     border: 2px solid rgb(255, 255, 255);
     text-align: left;
     padding: 1rem;
 }
-th{
+.languagetable__th{
     background-color: rgb(145, 202, 255);
 }
-footer {
+.footer {
     background-color: #f3f3f379;
     overflow: hidden;
     clear: both;
