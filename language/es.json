@@ -28,6 +28,7 @@
     "correo":"Correo",
     "date":"Fecha Limite",
     "desc":"Descripcion",
+    "ctFrm":"Formulario de Contacto",
     "pr0":"Practica 0",
     "pr0d":"Hola mundo en HTML",
     "pr1":"Practica 1",
@@ -46,5 +47,6 @@
     "pr7d":"Septima practica",
     "pr8":"Practica 8",
     "pr8d":"Octava practica",
-    "ctFrm":"Formulario de Contacto"
+    "pr9":"Practica 9",
+    "pr9d":"Novena practica"
 }
