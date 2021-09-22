@@ -19,7 +19,7 @@
 .languagetable {
     border-collapse: collapse;
 }
-.languagetable__td {
+.languagetable__td, .languagetable__th {
     border: 2px solid rgb(255, 255, 255);
     text-align: left;
     padding: 1rem;
