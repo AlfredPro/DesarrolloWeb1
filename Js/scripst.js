@@ -53,6 +53,7 @@ function setTexts() {
     $('#correo').text(language.correo);
     $('#date').text(language.date);
     $('#desc').text(language.desc);
+    $('#ctFrm').text(language.ctFrm);
     $('#pr0').text(language.pr0);
     $('#pr0d').text(language.pr0d);
     $('#pr1').text(language.pr1);
@@ -71,7 +72,8 @@ function setTexts() {
     $('#pr7d').text(language.pr7d);
     $('#pr8').text(language.pr8);
     $('#pr8d').text(language.pr8d);
-    $('#ctFrm').text(language.ctFrm);
+    $('#pr9').text(language.pr9);
+    $('#pr9d').text(language.pr9d);
 }
 $(document).ready(function(){
     getLanguage();
