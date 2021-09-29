@@ -38,3 +38,41 @@
     height: 125px;
     margin-top: -125px;
 }
+
+.practice10Box1{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 200px;
+    border: 10px;
+    outline: 5px;
+    border-style: dotted;
+    background-color: blue;
+}
+.practice10Box2{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 200px;
+    border: 10px;
+    outline: 5px;
+    background-color: blueviolet;
+}
+.practice10img-box{
+    width: 98%;
+    margin: 5em auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.practice10img{
+    border: 5px solid blue;
+    outline: 5px solid blue;
+    outline-offset: -45px;
+}
+.practice10text{
+    position: absolute;
+    color: blue;
+    font-size: 3em;
+}
