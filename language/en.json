@@ -62,5 +62,11 @@
     "pr15":"Practice 15",
     "pr15d":"Javascript Functions",
     "pr16":"Practice 16",
-    "pr16d":"Javascript Document and elements"
+    "pr16d":"Javascript Document and elements",
+    "pr17":"Practice 17",
+    "pr17d":"Javascript Node elements",
+    "pr18":"Practice 18",
+    "pr18d":"Javascript Radio buttons",
+    "ac1":"Activity 1",
+    "ac1d":"Random colors game"
 }

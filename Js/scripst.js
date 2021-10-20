@@ -88,6 +88,12 @@ function setTexts() {
     $('#pr15d').text(language.pr15d);
     $('#pr16').text(language.pr16);
     $('#pr16d').text(language.pr16d);
+    $('#pr17').text(language.pr17);
+    $('#pr17d').text(language.pr17d);
+    $('#pr18').text(language.pr18);
+    $('#pr18d').text(language.pr18d);
+    $('#ac1').text(language.ac1);
+    $('#ac1d').text(language.ac1d);
 }
 $(document).ready(function(){
     getLanguage();
