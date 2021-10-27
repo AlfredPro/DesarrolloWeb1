@@ -134,8 +134,9 @@ function ClicE(){
     //resultado.innerText = acumulado+actual;
     var fin = acumulado+actual;
     if(fin!="")
-        resultado.innerText = eval(fin);
-    acumulado = "";
+        fin = eval(fin);
+        resultado.innerText = fin;
+    acumulado = fin;
     actual = "";
     operacion = "";
 }
