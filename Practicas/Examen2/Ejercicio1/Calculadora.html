@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calc App</title>
+  </head>
+  <body>
+    <div class="container">
+       
+        <div class="calculator">
+          <div class="calculator__display" id="Ex2Ej1Text">0</div>
+    
+          <div class="calculator__keys">
+            <button class="key--operator" data-action="add" id="Ex2Ej1ButtonA" onclick="ClicA()">+</button>
+            <button class="key--operator" data-action="subtract" id="Ex2Ej1ButtonS" onclick="ClicS()">-</button>
+            <button class="key--operator" data-action="multiply" id="Ex2Ej1ButtonM" onclick="ClicM()">&times;</button>
+            <button class="key--operator" data-action="divide" id="Ex2Ej1ButtonD" onclick="ClicD()">÷</button>
+            <button id="Ex2Ej1Button7" onclick="Clic7()">7</button>
+            <button id="Ex2Ej1Button8" onclick="Clic8()">8</button>
+            <button id="Ex2Ej1Button9" onclick="Clic9()">9</button>
+            <button id="Ex2Ej1Button4" onclick="Clic4()">4</button>
+            <button id="Ex2Ej1Button5" onclick="Clic5()">5</button>
+            <button id="Ex2Ej1Button6" onclick="Clic6()">6</button>
+            <button id="Ex2Ej1Button1" onclick="Clic1()">1</button>
+            <button id="Ex2Ej1Button2" onclick="Clic2()">2</button>
+            <button id="Ex2Ej1Button3" onclick="Clic3()">3</button>
+            <button id="Ex2Ej1Button0" onclick="Clic0()">0</button>
+            <button data-action="decimal" id="Ex2Ej1ButtonP" onclick="ClicP()">.</button>
+            <button data-action="clear" id="Ex2Ej1ButtonC" onclick="ClicC()">AC</button>
+            <button class="key--equal" data-action="calculate" id="Ex2Ej1ButtonE" onclick="ClicE()">=</button>
+          </div>
+        </div>
+      </div>
+      
+    <script src="script.js"></script>
+  </body>
+</html>

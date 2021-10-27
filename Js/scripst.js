@@ -94,6 +94,8 @@ function setTexts() {
     $('#pr18d').text(language.pr18d);
     $('#ac1').text(language.ac1);
     $('#ac1d').text(language.ac1d);
+    $('#ex2').text(language.ex2);
+    $('#ex2d').text(language.ex2d);
 }
 $(document).ready(function(){
     getLanguage();
