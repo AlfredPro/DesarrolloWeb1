@@ -96,6 +96,10 @@ function setTexts() {
     $('#ac1d').text(language.ac1d);
     $('#ex2').text(language.ex2);
     $('#ex2d').text(language.ex2d);
+    $('#pr19').text(language.pr19);
+    $('#pr19d').text(language.pr19d);
+    $('#pr20').text(language.pr20);
+    $('#pr20d').text(language.pr20d);
 }
 $(document).ready(function(){
     getLanguage();

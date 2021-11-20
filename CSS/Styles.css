@@ -133,3 +133,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.scaleto10{
+    max-width: 20%;
+    height: auto;
+    margin: auto;
+}
