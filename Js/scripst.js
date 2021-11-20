@@ -100,6 +100,8 @@ function setTexts() {
     $('#pr19d').text(language.pr19d);
     $('#pr20').text(language.pr20);
     $('#pr20d').text(language.pr20d);
+    $('#pr21').text(language.pr21);
+    $('#pr21d').text(language.pr21d);
 }
 $(document).ready(function(){
     getLanguage();
