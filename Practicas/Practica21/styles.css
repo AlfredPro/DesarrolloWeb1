@@ -25,10 +25,9 @@ body {
     background: transparent;
     border: none;
   }
-
-  .nonselect{
-    user-select: none;
-  }
   .yesselect{
-    user-select: all;
+    background: white;
+  }
+  .yesselect:focus, .yesselect:active{
+    background: white;
   }

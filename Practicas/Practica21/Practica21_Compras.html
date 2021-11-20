@@ -37,11 +37,31 @@
                 </button>
               </div>
         </div>
-        <div>
+        <div id="Practice21BuyDiv">
             <p>Productos</p>
             <ul id="Practice21ProductList">
                 
             </ul>
+        </div>
+        <div>
+          <h1 class="titulo"><a name="contacto">Contacto</a></h1>
+            <p>Si deseas contactar para algo particular deja tu información</p>
+            <form acttion="Contacto.html" method="GET">
+              <fieldset>
+                <legend>Formulario de contacto</legend>
+                <div>Nombre<br></div>
+                <input type="text" name="user" placeholder="" class="yesselect"><br>
+                <div>Correo<br></div>
+                <input type="email" name="mail" placeholder="" class="yesselect"><br>
+                <div>Fecha límite<br></div>
+                <input type="date" name="date" class="yesselect"><br>
+                <input type="hidden" name="status" val="">
+                <div>Descripcion<br></div>
+                <textarea type="text" name="description" val=""></textarea><br>
+                <input class="btn-primary" type="submit" value="Enviar">
+                <input class="btn-secondary" type="reset" value="Limpiar">
+              </fieldset>
+            </form>
         </div>
 
 
