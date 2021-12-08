@@ -46,13 +46,17 @@
                         <div id="nombre">Nombre<br></div>
                         <input type="text" name="user" placeholder=""><br>
                         <div id="correo">Correo<br></div>
-                        <input type="email" name="mail" placeholder=""><br>
+                        <input type="text" name="user" placeholder=""><br>
+                        <div id="direccion">Direccion<br></div>
+                        <input type="text" name="direccion" placeholder=""><br>
+                        <div id="edad">Mayor de edad?<br></div>
+                        <input id="edadbox" type="checkbox" name="edad" placeholder=""><br>
                         <div id="date">Fecha límite<br></div>
                         <input type="date" name="date"><br>
                         <input type="hidden" name="status" val="">
                         <div id="desc">Descripcion<br></div>
                         <textarea type="text" name="description" val=""></textarea><br>
-                        <input class="btn-primary" type="submit" value="Enviar">
+                        <input class="btn-primary" type="submit" value="Enviar" onclick="validaredad()">
                         <input class="btn-secondary" type="reset" value="Limpiar">
                     </fieldset>
                 </form>

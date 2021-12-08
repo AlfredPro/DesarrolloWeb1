@@ -109,3 +109,11 @@ $(document).ready(function(){
     getLanguage();
     setTexts();
 });
+function validaredad(){
+    var box = document.getElementById("edadbox");
+    if(box.checked == true){
+        alert("Ok");
+    }else{
+        alert("No");
+    }
+}

@@ -1,248 +1,38 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Styles.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="CSS/bootstrap.min.css" rel="stylesheet">
-    <title id="practicesTitle">Practicas</title>
-</head>
-<body class="container-fluid p-0">
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg justify-content-center navbar-dark bg-dark m-0">
-            <div class="container">
-                <div class="mx-auto order-0">
-                    <a class="navbar-brand navBarMainPage" href="index.html">Inicio</a>
-                </div>
-                <div class="mx-auto">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link navBarSkills" href="Habilidades.html">Habilidades</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link navBarPractices" href="Practicas.html">Practicas </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navBarExperience" href="Experiencia.html">Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navBarContact" href="Contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navBarChangeLanguage" href="#" onclick="toggleLanguage()">Cambiar a ingles</a>
-                    </li>
-                    </ul>
+    <link href="CSS/Styles.css" rel="stylesheet">
+    <link href="CSS/estilos2.css" rel="stylesheet">
+    <title>Practics Login</title>
+  </head>
+  <body>
+    
+      <div id="login">
+        <h3 class="text-center text-white pt-5">Login form</h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Login</h3>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="text" name="password" id="PracticasPassword" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="button" name="login" class="btn btn-info btn-md" value="Login" onclick="validateUser()">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <div class="container my-0 py-0">
-            <div id="PracticesDiv">
-                <h1 class="titulo" id="practicasTitulo"><a name="practicas">Indice de practicas</a></h1>
-                <div class="row justify-content-center" id="PracticesRow">
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr0">Practica 0</h3>
-                            <p class="card-text" id=pr0d>Hola mundo en HTML</p>
-                            <a href="Practicas/Practica0/Practica0.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr1">Practica 1</h3>
-                            <p class="card-text" id="pr1d">Primer Practica oficial</p>
-                            <a href="Practicas/Practica1/Practica01.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr2">Practica 2</h3>
-                            <p class="card-text" id="pr2d">Segunda practica</p>
-                            <a href="Practicas/Practica2/Practica02.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr3">Practica 3</h3>
-                            <p class="card-text" id="pr3d">Tercera practica</p>
-                            <a href="Practicas/Practica3/Practica03.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr4">Practica 4</h3>
-                            <p class="card-text" id="pr4d">Cuarta practica</p>
-                            <a href="Practicas/Practica4/Practica04.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr5">Practica 5</h3>
-                            <p class="card-text" id="pr5d">Quinta practica</p>
-                            <a href="Practicas/Practica5/Practica05.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr6">Practica 6</h3>
-                            <p class="card-text" id="pr6d">Sexta practica</p>
-                            <a href="Practicas/Practica6/Practica06.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr7">Practica 7</h3>
-                            <p class="card-text" id="pr7d">Septima practica</p>
-                            <a href="Practicas/Practica7/Practica07.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr8">Practica 8</h3>
-                            <p class="card-text" id="pr8d">Octava practica</p>
-                            <a href="Practicas/Practica8/Practica08.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr9">Practica 9</h3>
-                            <p class="card-text" id="pr9d">Novena practica</p>
-                            <a href="Practicas/Practica9/Practica09.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr10">Practica 10</h3>
-                            <p class="card-text" id="pr10d">Decima practica</p>
-                            <a href="Practicas/Practica10/Practica10.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr11">Practica 11</h3>
-                            <p class="card-text" id="pr11d">Onceava practica</p>
-                            <a href="Practicas/Practica11/Practica11.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr12">Practica 12</h3>
-                            <p class="card-text" id="pr12d">Decimodoceava practica</p>
-                            <a href="Practicas/Practica12/Practica12.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr13">Practica 13</h3>
-                            <p class="card-text" id="pr13d">Decimotercera practica</p>
-                            <a href="Practicas/Practica13/Practica13.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr14">Practica 14</h3>
-                            <p class="card-text" id="pr14d">Decimocuarta practica</p>
-                            <a href="Practicas/Practica14/Practica14.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr15">Practica 15</h3>
-                            <p class="card-text" id="pr15d">Decimoquinta practica</p>
-                            <a href="Practicas/Practica15/Practica15.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr16">Practica 16</h3>
-                            <p class="card-text" id="pr16d">Decimosexta practica</p>
-                            <a href="Practicas/Practica16/Practica16.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr17">Practica 17</h3>
-                            <p class="card-text" id="pr17d">Decimoseptima practica</p>
-                            <a href="Practicas/Practica17/Practica17.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr18">Practica 18</h3>
-                            <p class="card-text" id="pr18d">Decimoocatva practica</p>
-                            <a href="Practicas/Practica18/Practica18.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="ac1">Actividad 1</h3>
-                            <p class="card-text" id="ac1d">Primera actividad</p>
-                            <a href="Practicas/Actividad1/Actividad1.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="ex2">Segundo Parcial</h3>
-                            <p class="card-text" id="ex2d">Segundo examen</p>
-                            <a href="Practicas/Examen2/Examen2.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr19">Practica 19</h3>
-                            <p class="card-text" id="pr19d">Decimonovena practica</p>
-                            <a href="Practicas/Practica19/Practica19.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr20">Practica 20</h3>
-                            <p class="card-text" id="pr20d">Vigesima practica</p>
-                            <a href="Practicas/Practica20/Practica20.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr21">Practica 21</h3>
-                            <p class="card-text" id="pr21d">Vigesimaprimera practica</p>
-                            <a href="Practicas/Practica21/Practica21.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                    <div class="card w-25 m-3">
-                        <div class="card-body">
-                            <h3 class="card-title" id="pr22">Practica 22</h3>
-                            <p class="card-text" id="pr221d">Vigesimasegunda practica</p>
-                            <a href="Practicas/Practica22/Practica22.html" class="btn btn-primary ver">Ver</a>
-                        </div>
-                    </div>
-                </div>
-            </div>    
         </div>
     </div>
-    <footer class="footer">
-        <div class="row p-2">
-            <div class="col-12 col-md">
-            <small class="d-block mb-3 text-muted">© Alfredo 2021</small>
-            </div>
-            <div class="col-6 col-md">
-            <h5 class="network">Redes</h5>
-            <ul class="list-unstyled text-small">
-            <li class="mb-1"><a href="https://www.linkedin.com/in/francisco-alfredo-castrellon-carrillo-79273817b/"> LinkedIn</a></li>
-            <li class="mb-1"><a href="mailto:0222702@up.edu.mx"> E-mail: 0222702@up.edu.mx</a></li>
-            </ul>
-            </div>
-            <div class="col-6 col-md">
-            <h5 class="about">Acerca de...</h5>
-            <ul class="list-unstyled text-small">
-                <li class="mb-1"><a class="footerLetra">Alfreds Inc. 2021</a></li>
-                <li class="mb-1"><a class="footerLetra">Desarrollo de aplicaciones web</a></li>
-                <li class="mb-1"><a class="footerLetra">Universidad Panamericana - Bonaterra</a></li>
-            </ul>
-            </div>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script src="Js/bootstrap.bundle.min.js"></script>
-    <script src="Js/scripst.js"></script>
-</body>
+    <script src="Js/pass.js"></script>
+  </body>
 </html>
